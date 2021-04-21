@@ -1,0 +1,25 @@
+{
+  "name": "unhcore-map",
+  "author": "jlcolbert",
+  "version": "2.1.0",
+  "devDependencies": {
+    "@arcticicestudio/remark-preset-lint": "^0.4.0",
+    "prettier": "^2.2.1",
+    "remark-cli": "^9.0.0",
+    "remark-gfm": "^1.0.0",
+    "remark-lint": "^8.0.0"
+  },
+  "scripts": {
+    "lint-md": "remark ."
+  },
+  "remarkConfig": {
+    "plugins": [
+      "remark-gfm",
+      "@arcticicestudio/remark-preset-lint",
+      [
+        "remark-lint-no-file-name-mixed-case",
+        false
+      ]
+    ]
+  }
+}
