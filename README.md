@@ -22,7 +22,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 1. An editor for Markdown files, specifically GitHub Markdown
 2. A GitHub account if you plan to submit issues
-3. Git and a GitHub account if you plan to clone/form this repository, make edits, and submit pull requests
+3. Git and a GitHub account if you plan to clone/fork this repository, make edits, and submit pull requests
 4. HubFlow, if you want the branch workflow automated
 5. Yarn, if you plan on using the CLI linters/formatters
 
@@ -32,7 +32,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ```sh
 git clone https://github.com/jlcolbert/unhcore-map.git # https://github.com/jlcolbert/unhcore-map.wiki.git for Wiki files
-cd unhcore-map
+cd unhcore-map # cd unhcore-map.wiki
 ```
 
 2. Create a feature branch for your contribution(s)
