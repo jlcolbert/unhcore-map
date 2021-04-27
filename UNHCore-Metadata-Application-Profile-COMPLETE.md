@@ -76,7 +76,9 @@ The UNHCore Metadata Property Set consists of 27 descriptive elements. However, 
 Namespaces are prefixes to metadata properties that indicate the scheme from which it is being used. Namespaces prevent confusion about properties that may be used in more than one schema. The UNHCore MAP references properties using the following namespaces:
 
 dc: <http://purl.org/dc/elements/1.1/>
+
 dcterms: <http://purl.org/dc/terms/>
+
 dcmitype: <http://purl.org/dc/dcmitype/>
 
 ### Describing Objects
